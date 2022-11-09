@@ -14,6 +14,7 @@
 		39546FAA29180A140048DBB5 /* mandelbrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39546FA929180A140048DBB5 /* mandelbrotTests.swift */; };
 		39546FB429180A140048DBB5 /* mandelbrotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39546FB329180A140048DBB5 /* mandelbrotUITests.swift */; };
 		39546FB629180A140048DBB5 /* mandelbrotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39546FB529180A140048DBB5 /* mandelbrotUITestsLaunchTests.swift */; };
+		3968F6D1291B30F2005D9759 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968F6D0291B30F2005D9759 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		39546FAF29180A140048DBB5 /* mandelbrotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mandelbrotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39546FB329180A140048DBB5 /* mandelbrotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mandelbrotUITests.swift; sourceTree = "<group>"; };
 		39546FB529180A140048DBB5 /* mandelbrotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mandelbrotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3968F6D0291B30F2005D9759 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				39546F9A29180A110048DBB5 /* ContentView.swift */,
 				39546F9C29180A130048DBB5 /* Assets.xcassets */,
 				39546F9E29180A130048DBB5 /* Preview Content */,
+				3968F6CF291B30B6005D9759 /* Views */,
 			);
 			path = mandelbrot;
 			sourceTree = "<group>";
@@ -125,6 +128,14 @@
 				39546FB529180A140048DBB5 /* mandelbrotUITestsLaunchTests.swift */,
 			);
 			path = mandelbrotUITests;
+			sourceTree = "<group>";
+		};
+		3968F6CF291B30B6005D9759 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3968F6D0291B30F2005D9759 /* HexagonParameters.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3968F6D1291B30F2005D9759 /* HexagonParameters.swift in Sources */,
 				39546F9B29180A110048DBB5 /* ContentView.swift in Sources */,
 				39546F9929180A110048DBB5 /* mandelbrotApp.swift in Sources */,
 			);
