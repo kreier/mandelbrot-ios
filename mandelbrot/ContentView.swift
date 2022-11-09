@@ -6,13 +6,16 @@
 //
 
 import SwiftUI
+var inhalt: String = ""
 
 struct ContentView: View {
+    @State var inhalt = ""
+    
     var body: some View {
         VStack {
             Text("Mandelbrot creation")
             Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                replaceText()
             }
             .padding(/*@START_MENU_TOKEN@*/.all, 3.0/*@END_MENU_TOKEN@*/)
             .buttonStyle(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=Button Style@*/DefaultButtonStyle()/*@END_MENU_TOKEN@*/)
@@ -21,7 +24,8 @@ struct ContentView: View {
             Image("default")
 //            Rectangle(10,10,20,20)
             
-            TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+            TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: $inhalt)
+            Text(inhalt)
         }
         .padding()
         
@@ -29,6 +33,10 @@ struct ContentView: View {
 //        scene.place(polygon, at: Point(x: 0, y: 250))
 //            .padding()
     }
+}
+
+func replaceText() {
+    inhalt = "New text"
 }
 
 struct ContentView_Previews: PreviewProvider {
