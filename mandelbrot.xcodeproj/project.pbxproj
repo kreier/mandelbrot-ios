@@ -15,6 +15,7 @@
 		39546FB429180A140048DBB5 /* mandelbrotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39546FB329180A140048DBB5 /* mandelbrotUITests.swift */; };
 		39546FB629180A140048DBB5 /* mandelbrotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39546FB529180A140048DBB5 /* mandelbrotUITestsLaunchTests.swift */; };
 		3968F6D1291B30F2005D9759 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968F6D0291B30F2005D9759 /* HexagonParameters.swift */; };
+		4D6B44C7292258340035C9A7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B44C6292258340035C9A7 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		39546FB329180A140048DBB5 /* mandelbrotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mandelbrotUITests.swift; sourceTree = "<group>"; };
 		39546FB529180A140048DBB5 /* mandelbrotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mandelbrotUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3968F6D0291B30F2005D9759 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		4D6B44C6292258340035C9A7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				39546F9829180A110048DBB5 /* mandelbrotApp.swift */,
 				39546F9A29180A110048DBB5 /* ContentView.swift */,
+				4D6B44C6292258340035C9A7 /* TabBarView.swift */,
 				39546F9C29180A130048DBB5 /* Assets.xcassets */,
 				39546F9E29180A130048DBB5 /* Preview Content */,
 				3968F6CF291B30B6005D9759 /* Views */,
@@ -270,6 +273,7 @@
 			files = (
 				3968F6D1291B30F2005D9759 /* HexagonParameters.swift in Sources */,
 				39546F9B29180A110048DBB5 /* ContentView.swift in Sources */,
+				4D6B44C7292258340035C9A7 /* TabBarView.swift in Sources */,
 				39546F9929180A110048DBB5 /* mandelbrotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
